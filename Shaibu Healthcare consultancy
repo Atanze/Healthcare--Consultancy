@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaibu Atanze Emmanuel | Healthcare Operations & Patient Experience Consultancy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-sky-600 text-white p-2 rounded-lg">
+                    <i class="fa-solid fa-hospital-user text-xl"></i>
+                </div>
+                <div>
+                    <span class="font-bold text-lg text-slate-900 block leading-none">Shaibu Atanze Emmanuel</span>
+                    <span class="text-xs text-sky-600 font-medium">Healthcare Operations & Patient Experience</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
+                <a href="#about" class="hover:text-sky-600 transition">About</a>
+                <a href="#services" class="hover:text-sky-600 transition">Services</a>
+                <a href="#audit" class="hover:text-sky-600 transition">Complimentary Audit</a>
+                <a href="#contact" class="hover:text-sky-600 transition">Contact</a>
+            </nav>
+            <a href="#contact" class="bg-sky-600 hover:bg-sky-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg shadow-md hover:shadow-lg transition">Book Consultation</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-slate-900 text-white py-20 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <span class="inline-block bg-sky-500/20 text-sky-400 font-semibold text-xs tracking-wider uppercase px-4 py-1.5 rounded-full mb-6">Elevating Hospital Operational Standards</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+                Optimizing Patient Experience & Streamlining Hospital Workflows
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed">
+                Empowering healthcare facilities to reduce wait times, enhance intake efficiency, and build resilient patient-centric service protocols.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#audit" class="bg-sky-600 hover:bg-sky-500 text-white font-semibold px-8 py-3.5 rounded-lg shadow-lg transition">Request Free Hospital Audit</a>
+                <a href="#services" class="border border-slate-700 hover:border-slate-500 text-slate-300 font-semibold px-8 py-3.5 rounded-lg transition">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Stats Bar -->
+    <section class="bg-white py-8 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div>
+                <div class="text-3xl font-extrabold text-sky-600">Reduced</div>
+                <div class="text-sm font-medium text-slate-600">Patient Wait Times</div>
+            </div>
+            <div>
+                <div class="text-3xl font-extrabold text-sky-600">Optimized</div>
+                <div class="text-sm font-medium text-slate-600">Front-Desk Workflows</div>
+            </div>
+            <div>
+                <div class="text-3xl font-extrabold text-sky-600">Improved</div>
+                <div class="text-sm font-medium text-slate-600">HMO & Claims Handover</div>
+            </div>
+            <div>
+                <div class="text-3xl font-extrabold text-sky-600">Enhanced</div>
+                <div class="text-sm font-medium text-slate-600">Patient Retention Rates</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Core Advisory & Operational Services</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto">Custom solutions tailored for private hospitals, outpatient clinics, and diagnostic centers.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-lg flex items-center justify-center mb-6 text-xl">
+                    <i class="fa-solid fa-list-check"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Front-Desk & Intake Transformation</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Auditing patient registration, triage communication, and discharge protocols to eliminate administrative bottlenecks and elevate initial touchpoint satisfaction.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-lg flex items-center justify-center mb-6 text-xl">
+                    <i class="fa-solid fa-user-gear"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">Staff Training & Service Protocols</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Interactive workshops for non-clinical and administrative personnel focused on patient empathy, de-escalation, conflict resolution, and communication standards.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-lg flex items-center justify-center mb-6 text-xl">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-3">HMO & Claims Process Optimization</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Streamlining pre-authorization, billing query resolutions, and insurance verification workflows to ensure swift claims turnover and patient clarity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Complimentary Audit Proposal Section -->
+    <section id="audit" class="bg-sky-50 py-20 px-6 border-y border-sky-100">
+        <div class="max-w-5xl mx-auto bg-white p-10 md:p-14 rounded-2xl shadow-xl border border-sky-200">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <span class="text-xs font-bold text-sky-600 uppercase tracking-wider">Operational Assessment</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 mt-2 mb-4">Complimentary 3-Day Patient Experience & Workflow Audit</h2>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Get a detailed analysis of your facility's operational efficiency, patient reception flow, and staff-patient communication channels.
+                    </p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li class="flex items-center"><i class="fa-solid fa-circle-check text-sky-600 mr-3"></i> Triage & Intake Efficiency Mapping</li>
+                        <li class="flex items-center"><i class="fa-solid fa-circle-check text-sky-600 mr-3"></i> Patient Communication & Wait-Time Review</li>
+                        <li class="flex items-center"><i class="fa-solid fa-circle-check text-sky-600 mr-3"></i> Actionable Summary Improvement Report</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <h3 class="text-lg font-bold text-slate-900 mb-4">Request Your Audit</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">Full Name</label>
+                            <input type="text" placeholder="Dr. / Mr. / Ms." class="w-full px-4 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">Hospital / Facility Name</label>
+                            <input type="text" placeholder="e.g., Premier Medical Center" class="w-full px-4 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-700 mb-1">Work Email</label>
+                            <input type="email" placeholder="name@hospital.com" class="w-full px-4 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 outline-none">
+                        </div>
+                        <button type="button" class="w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-2.5 rounded-lg transition text-sm">Submit Audit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-slate-900 text-slate-400 py-12 px-6 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <h3 class="text-white text-lg font-bold mb-2">Shaibu Atanze Emmanuel</h3>
+                <p class="text-sm text-slate-400">Healthcare Operations & Patient Experience Consultant</p>
+                <p class="text-xs text-slate-500 mt-4">&copy; 2026 Shaibu Atanze Emmanuel. All rights reserved.</p>
+            </div>
+            <div class="md:text-right text-sm">
+                <div class="space-y-1">
+                    <p><i class="fa-solid fa-envelope mr-2 text-sky-500"></i> atanzeshaibu2019@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot mr-2 text-sky-500"></i> Kano, Nigeria</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
